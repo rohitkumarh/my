@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("rohit4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(21, 21, 21);
+}
+@media (min-width:306px)and (max-width:568px)
+{
+    nav{
+        width: 100%;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        font-size: small;
+        justify-content: space-evenly;
+    }
+    nav ul{
+        font-size: 6px;
+    }
+    .contact_btn{
+        font-size: 5px;
+    }
+    .home_desc h2 {
+        padding: 1px;
+        padding-top: 10px;
+        margin: 2px;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+    }
+    .home_desc h2 span{
+        font-size: 20px;
+    }
+}
